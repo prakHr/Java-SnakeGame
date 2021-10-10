@@ -107,8 +107,8 @@ def solve(n,numSnakes,numLadders):
     return board
     
 n=int(input("Enter final position of board:-\n"))
-numSnakes=int(input("Enter a random number of snakes:-\n"))
-numLadders=int(input("Enter a random number of ladders:-\n"))
+numSnakes=2
+numLadders=3
 errorMsg="Enter valid number which is >= 10 and divisible by 10 like 10,20,30... "
        
 if check(n):
